@@ -1,0 +1,46 @@
+body {
+  background-color: #6e6e6e;
+  color: #fff;
+}
+
+h1 {
+  color: #fff;
+}
+
+.note {
+  background-color: #ffef9f;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+  word-wrap: break-word;
+  width: 18%;
+}
+
+.important {
+  background-color: #f28b82;
+}
+
+@media (max-width: 768px) {
+  .note {
+      width: 100%;
+  }
+}
+
+@media (min-width: 769px) {
+  .note {
+      width: 23%;
+  }
+}
+
+.form-inline .form-control,
+.form-inline .btn,
+.form-inline .form-check {
+  margin-right: 10px;
+}
+
+.form-inline {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
